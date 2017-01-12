@@ -237,7 +237,7 @@ class TestDriveAdmin(admin.ModelAdmin):
 
         }),   
         (_('Dealer'), {
-            'fields': ('purchase_intent', 'brochure', 'retailer_number', 'retailer_location', 'language', 'consent', 'vehicle', 'status'),
+            'fields': ('purchase_intent', 'brochure', 'retailer_number', 'retailer_location', 'language', 'consent', 'consentB', 'vehicle', 'status'),
         }),
 
     ) 
@@ -247,7 +247,7 @@ class KeepingInTouchAdmin(admin.ModelAdmin):
     list_display = ('firstName', 'lastName', 'email', 'phone', 'purchaseIntent', 'consent', 'status')
     fieldsets = (
         (_('Customer'), {
-            'fields': ('firstName', 'lastName', 'phone', 'email', 'purchaseIntent', 'language', 'consent', 'status'),
+            'fields': ('firstName', 'lastName', 'phone', 'email', 'purchaseIntent', 'language', 'consent', 'consentB', 'status'),
         }),   
     )   
 

@@ -636,6 +636,7 @@ class TestDrive(models.Model):
     retailer_location = models.CharField(max_length=100, blank=True, default='')
     language = models.CharField(max_length=100, blank=False, default='')
     consent = models.BooleanField()
+    consentB = models.BooleanField(default='')
     vehicle = models.CharField(max_length=100, blank=False, default='')
     status = models.BooleanField(default='')
 
@@ -651,6 +652,7 @@ class KeepingInTouch(models.Model):
     purchaseIntent = models.CharField(max_length=100, blank=True, default='')
     language = models.CharField(max_length=100, blank=False, default='')
     consent = models.BooleanField()
+    consentB = models.BooleanField(default='')
     status = models.BooleanField(default='')    
 
     class Meta:
