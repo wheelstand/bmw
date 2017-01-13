@@ -90,6 +90,7 @@ WSGI_APPLICATION = 'bmw.wsgi.application'
 
 
 # Database
+# info
 # https://docs.djangoproject.com/en/1.8/ref/settings/#databases
 
 DATABASES = {
