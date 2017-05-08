@@ -13,3 +13,10 @@ LANGUAGE_CHOICES = (
     ('EN', 'English'),
     ('FR', 'French'),
 )
+
+TYPE = (
+    ('Exterior', 'Exterior'),
+    ('Interior', 'Interior'),
+    ('Trim_Colour', 'Trim_Colour'),
+    ('Other', 'Other'),
+)

@@ -22,6 +22,7 @@ router.register(r'colour', views.ColoursViewSet)
 #router.register(r'information', views.InformationViewSet)
 #router.register(r'testdrive', views.TestDriveViewSet)
 #router.register(r'keepingintouch', views.KeepingInTouchList)
+router.register(r'standaloneoption', views.StandAloneOptionViewSet)
 
 
 # Wire up our API using automatic URL routing.

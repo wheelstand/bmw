@@ -47,9 +47,11 @@ INSTALLED_APPS = (
     'colorfield',
     'rest_framework',
     'drf_multiple_model',
-    'chroniker',    
+    'chroniker',
+    'sortedm2m',
 )
 
+SITE_ID = 1
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
