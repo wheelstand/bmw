@@ -1,4 +1,4 @@
-# bmw Wheelstand Project
+# BMW Wheelstand Project
 
 Django app that provides a content management system for the wheelstand project. Provides API to the front-end via the djangorestframework 
 
